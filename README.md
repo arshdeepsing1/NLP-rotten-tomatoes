@@ -1,1 +1,5 @@
-# NLP-one
+# NLP-Rotten-Tomatoes
+
+Natural Language Processing is an important domain of the machine learning applications. Our project tries to provide a comparative analysis of different supervised machine learning algorithms on a popular movie review database, Rotten Tomatoes. The project is divided into 3 modules. The first module performs Exploratory Data Analysis on the dataset. The second module applies different ML models on the dataset for comparative analysis. In the third module, dimensionality reduction is carried out to test out whether we are able to achieve that amount of accuracy with the reduced feature set. 
+
+There are basically two popular approaches while representing the text document : Bag of Words (BoW) and Word2Vec. Both the approaches uses numeric methodology for text representation. The simplest is the the bag-of-words approach, where each unique word in a text will be represented by one number. Word2Vec approach implements vectorized projection of word embeddings. For our project, we have used Bag ofWords (BoW) approach for representing our review documents.
